@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## 2021-03-20 21:52:34 [Version 1.1.0]
+
 ```
 2021-03-17 00:40:53 Changed: Modernized SEO headers.
 2021-03-16 22:54:37 Added: `moonwalk` theme.
@@ -15,9 +17,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## 2018-01-26 Version 1.0.0
 
 ```
-Changed: General cleanup
-Changed: Initial commit
-Historic commit
+- Changed: General cleanup
+- Changed: Initial commit
+- Historic commit
 ```
 
-[Unreleased]: https://github.com/xyzzy/jsFlightSim/compare/v1.0.0...HEAD
+[Unreleased]: https://github.com/xyzzy/jsFlightSim/compare/v1.1.0...HEAD
+[Version 1.1.0]: https://github.com/xyzzy/jsFlightSim/compare/v1.0.0...v1.1.0
