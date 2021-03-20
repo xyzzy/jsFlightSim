@@ -1,0 +1,19 @@
+navbar_entries:
+  - title: "showcase"
+    url: https://xyzzy.github.io
+
+  - title: "xyzzy@github"
+    url: https://github.com/xyzzy
+
+  - title: "jsFlightSim@github"
+    url: https://github.com/xyzzy/jsFlightSim
+
+footer_entries:
+  - title: "showcase"
+    url: https://xyzzy.github.io
+
+  - title: "xyzzy@github"
+    url: https://github.com/xyzzy
+
+  - title: "jsFlightSim@github"
+    url: https://github.com/xyzzy/jsFlightSim
