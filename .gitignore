@@ -1,0 +1,6 @@
+.backup/
+.deps/
+.idea/
+
+*.bak
+*.gz
