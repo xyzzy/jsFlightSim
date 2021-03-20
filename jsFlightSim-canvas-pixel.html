@@ -1,28 +1,46 @@
 <!DOCTYPE html>
-<!--
-	Flight simulator written in javascript
-	https://github.com/xyzzy/jsFlightSim
-
-	Copyright 2018 https://github.com/xyzzy
-
-	This program is free software: you can redistribute it and/or modify
-	it under the terms of the GNU Affero General Public License as published
-	by the Free Software Foundation, either version 3 of the License, or
-	(at your option) any later version.
-
-	This program is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU Affero General Public License for more details.
-
-	You should have received a copy of the GNU Affero General Public License
-	along with this program.  If not, see <http://www.gnu.org/licenses/>.
--->
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+
+	<!--
+	 *  This file is part of jsFlightSim - A flight simulator written in javascript
+	 *
+	 *  Copyright (C) 2018, xyzzy@RockingShip.org
+	 *
+	 *  This program is free software: you can redistribute it and/or modify
+	 *  it under the terms of the GNU Affero General Public License as published
+	 *  by the Free Software Foundation, either version 3 of the License, or
+	 *  (at your option) any later version.
+	 *
+	 *  This program is distributed in the hope that it will be useful,
+	 *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+	 *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	 *  GNU Affero General Public License for more details.
+	 *
+	 *  You should have received a copy of the GNU Affero General Public License
+	 *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+	-->
+
 	<title>jsFlightSim (canvas/pixel)</title>
-	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
-	<style type="text/css">
+	<meta property="og:title" content="jsFlightSim (canvas/pixel)">
+	<meta name="description" content="A flight simulator written in javascript using putImageData()">
+	<meta property="og:description" content="A flight simulator written in javascript using putImageData()">
+	<link rel="shortcut icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+	<link rel="shortcut icon" type="image/png" sizes="152x152" href="assets/favicon-152.png">
+	<link rel="shortcut icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="152x152" href="assets/favicon-152.png">
+	<link rel="apple-touch-icon" type="image/png" sizes="192x192" href="assets/favicon-192.png">
+	<meta property="og:url" content="https://xyzzy.github.io/jsFlightSim/jsFlightSim-canvas-pixel.html">
+	<meta property="og:image" content="https://xyzzy.github.io/jsFlightSim/assets/favimage-840x472.png">
+	<meta property="og:type" content="website">
+	<meta property="og:locale" content="en_GB">
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta property="twitter:title" content="jsFlightSim - Flight simulator written in javascript using putImageData()" />
+	<meta property="twitter:image" content="https://xyzzy.github.io/jsFlightSim/assets/favimage-840x472.png" />
+
+	<style>
 		body {
 			font-family: Verdana, Geneva, sans-serif;
 		}
@@ -42,7 +60,7 @@
 	<a href="javascript:setScenery1()">Scenery1</a>
 	<a href="javascript:setScenery2()">Scenery2</a>
 	<a href="javascript:clearInterval(gTimer);tis=undefined">STOP</a>
-	<a href="jsFlightSim.html">Switch to image/GIF mode</a>
+	<a href="index.html">Switch to image/GIF mode</a>
 </p>
 
 <canvas id="canvas" style="border:1px solid #000000;">
@@ -448,5 +466,11 @@
 	}
 
 </script>
+
+<hr/>
+<p>
+	<button onclick="location='https://xyzzy.github.io/jsFlightSim/README.html'">&#x2343; README</button>
+	<button onclick="location='https://github.com/xyzzy/jsFlightSim'">&#x2353; jsFlightSim@github</button>
+</p>
 </body>
 </html>
