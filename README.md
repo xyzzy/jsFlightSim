@@ -5,11 +5,13 @@ image: assets/favimage-840x472.jpg
 ---
 
 \[click on the image to start the simulator\]  
-[![teaser](assets/favimage-840x472.jpg)](https://xyzzy.github.io/jsFlightSim/)
+[![teaser](assets/favimage-840x472.jpg)](https://xyzzy.github.io/jsFlightSim)
 
 # jsFlightSim
 
-A flight simulator written in javascript. [https://xyzzy.github.io/jsFlightSim/](https://xyzzy.github.io/jsFlightSim/)
+A flight simulator written in javascript.
+
+Try the demonstration here: [https://xyzzy.github.io/jsFlightSim/](https://xyzzy.github.io/jsFlightSim)
 
 ### Welcome to the Wonderful World of (ported) obfuscated `C`
 
@@ -45,7 +47,7 @@ There are 3 demos. Each has a status line including the time needed to create/di
 Grab one of the tarballs at [https://github.com/xyzzy/jsFlightSim/releases](https://github.com/xyzzy/jsFlightSim/releases) or checkout the latest code:
 
 ```sh
-        git clone https://github.com/xyzzy/jsFlightSim.git
+  git clone https://github.com/xyzzy/jsFlightSim.git
 ```
 
 ## Versioning

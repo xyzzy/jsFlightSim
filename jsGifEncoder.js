@@ -1,7 +1,7 @@
 /*
  *  This file is part of jsFlightSim - Ultra-fast GIF encoder for data URL written in javascript
  *
- *  Copyright (C) 2018, xyzzy@RockingShip.org
+ *  Copyright (C) 2018, xyzzy@rockingship.org
  *
  *  This program is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Affero General Public License as published
